@@ -1,0 +1,101 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: rgb(236, 240, 239);
+}
+
+
+.post {
+    background-color: rgba(0, 0, 0, 0.1) ;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.profile-header h1 {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Media Container */
+.media-container {
+    margin-top: 15px;
+}
+
+.media-item {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+
+.edit-cnt, .kebab-menu-options {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.edit-btn {
+    padding: 5px;
+    align-self: center;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 0;
+}
+.delete-btn{
+    padding: 5px;
+    align-self: center;
+    font-size: 14px;
+    color: white;
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture-post {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+    margin-right: 15px;
+}
+.profile-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
