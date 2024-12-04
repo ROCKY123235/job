@@ -253,8 +253,9 @@ public function destroy($id)
         if (file_exists($filePath)) {
             unlink($filePath);
         }
+        $media->delete();
+
     }
-    $media->delete();
 
     $post->delete();
 
